@@ -17,7 +17,7 @@ const Home: NextPage = () => {
   };
   return (
     <div className='container'>
-      <Seo title='닉네임 생성기' />
+      <Seo title='닉네임 생성기, 형용사 단어 조합기' />
       <div className='contentContainer'>
         <div className='content'>
           {name && <div className='createdText'>{name}</div>}
